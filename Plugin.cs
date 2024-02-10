@@ -12,7 +12,7 @@ namespace LCGoodies
     {
         private const string modGUID = "cloalkteorn.LCGoodies";
         private const string modName = "LCGoodies";
-        private const string modVersion = "1.1.0.0";
+        private const string modVersion = "1.1.2.0";
 
         private readonly Harmony harmony = new Harmony(modGUID);
         private static Plugin Instance;
