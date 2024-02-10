@@ -151,6 +151,10 @@ namespace LCGoodies.MonoBehaviors
                     player.movementSpeed = slowSpeed;
                     player.jumpForce = slowJump;
                 }
+                if (player.isPlayerDead)
+                {
+                    Destroy(this);
+                }
             }
 
             void OnDestroy()
